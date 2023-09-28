@@ -1,0 +1,11 @@
+[dbserver]
+#192.168.56.102  ansible_python_interpreter=/usr/bin/python3
+192.168.56.102  apache_package=apache2 php_package=libapache2-mod-php
+
+[fileserver]
+#192.168.56.103  ansible_python_interpreter=/usr/bin/python3
+192.168.56.103  apache_package=apache2 php_package=libapache2-mod-php
+
+[centos]
+#ahernandez@192.168.56.115  ansible_python_interpreter=/usr/bin/python3
+ahernandez@192.168.56.115 apache_package=apache2 php_package=libapache2-mod-php
